@@ -1,0 +1,166 @@
+-- Inserir usuários
+ INSERT INTO Users (google_id, username, email)
+ VALUES ('google_ana_maria', 'Ana Maria', 'anamaria@gmail.com');
+
+INSERT INTO Users (google_id, username, email)
+VALUES ('google_jose', 'José', 'jose@gmail.com');
+
+INSERT INTO Users (google_id, username, email)
+VALUES ('google_henrique', 'Henrique', 'henique@gmail.com');
+
+INSERT INTO Users (google_id, username, email)
+VALUES ('google_amelia', 'Amelia', 'amelia@gmail.com');
+
+INSERT INTO Users (google_id, username, email)
+VALUES ('google_andressa', 'Andressa', 'andressa@gmail.com');
+
+INSERT INTO Users (google_id, username, email)
+VALUES ('google_rafael', 'Rafael', 'rafael@gmail.com');
+
+
+INSERT INTO Users (google_id, username, email)
+VALUES ('google_icaro', 'Ícaro', 'icaro@gmail.com');
+
+INSERT INTO Users (google_id, username, email)
+VALUES ('google_tatyana', 'Tatyana', 'tatyana@gmail.com');
+
+INSERT INTO Users (google_id, username, email)
+VALUES ('google_andre', 'Andre', 'andre@gmail.com');
+
+INSERT INTO Users (google_id, username, email)
+VALUES ('google_gerson', 'Gerson', 'gerson@gmail.com');
+
+INSERT INTO Users (google_id, username, email)
+VALUES ('google_matheus', 'Matheus', 'matheus@gmail.com');
+
+
+--Inserir Perguntas
+
+INSERT INTO Questions (question_text, category, difficulty)
+VALUES ('Qual é a capital da França?', 'Geografia', 1);
+
+
+INSERT INTO Questions (question_text, category, difficulty)
+VALUES ('Quais países fazem parte do BRICS?', 'Geografia', 2);
+
+
+
+INSERT INTO Questions (question_text, category, difficulty)
+VALUES ('Em questão territorial, qual país se encontra entre Rússia e China?', 'Geografia', 3);
+
+
+INSERT INTO Questions (question_text, category, difficulty)
+VALUES ('Quem escreveu "Romeu e Julieta"?', 'Literatura', 1);
+
+
+INSERT INTO Questions (question_text, category, difficulty)
+VALUES ('Quem é considerado o principal autor do gênero literário de terror cósmico?', 'Literatura', 2);
+
+
+INSERT INTO Questions (question_text, category, difficulty)
+VALUES ('Quem escreveu "Romeu e Julieta"?Em  "Dom Casmurro", Capitu traiu Bentinho?' , 'Literatura' , 3);
+
+INSERT INTO Questions (question_text, category, difficulty)
+VALUES ('Quantos planetas existem no sistema solar?', 'Astronomia', 1);
+
+INSERT INTO Questions (question_text, category, difficulty)
+VALUES ('Quais planetas no sistema solar são considerados gigantes gasosos?', 'Astronomia', 2);
+
+INSERT INTO Questions (question_text, category, difficulty)
+VALUES ('Quanto tempo demora aproximadamente para a luz do sol chegar até a Terra?', 'Astronomia', 3);
+
+-- Inserir respostas certas
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (1, 'Paris', 1);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (2, 'Brasil, Rússia, Índia, China, África do Sul', 1);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (3, 'Mongólia', 1);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (4, 'William Shakespeare', 1);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (5, 'H.P. Lovecraft', 1);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (6, 'Não é revelado', 1);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (7, '8', 1);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (8, 'Júpiter , Saturno , Netuno , Urano', 1);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (9, '8 minutos', 1);
+-- Inserir respostas erradas
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (1, 'Londres', 0);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (2, 'Bolívia, Ruanda, Iêmen, Coréia do Sul', 0);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (3, 'Uzbequistão', 0);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (4, 'Charles Chaplin', 0);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (5, 'Edgar Allan Poe', 0);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (6, 'Sim', 0);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (7, '7', 0);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (8, 'Mercúrio, Vênus , Terra , Marte', 0);
+
+INSERT INTO Answers (question_id, answer_text, is_correct)
+VALUES (9, '10 segundos', 0);
+
+
+-- Inserir scores pros usuários
+INSERT INTO UserScores (user_id, score_value)
+VALUES (1, 650);
+
+INSERT INTO UserScores (user_id, score_value)
+VALUES (2, 450);
+
+INSERT INTO UserScores (user_id, score_value)
+VALUES (3, 370);
+
+INSERT INTO UserScores (user_id, score_value)
+VALUES (4, 220);
+
+INSERT INTO UserScores (user_id, score_value)
+VALUES (5, 690);
+
+INSERT INTO UserScores (user_id, score_value)
+VALUES (6, 1200);
+
+INSERT INTO UserScores (user_id, score_value)
+VALUES (6, 1150);
+
+INSERT INTO UserScores (user_id, score_value)
+VALUES (7, 1020);
+
+INSERT INTO UserScores (user_id, score_value)
+VALUES (8, 880);
+
+INSERT INTO UserScores (user_id, score_value)
+VALUES (9, 950);
+
+INSERT INTO UserScores (user_id, score_value)
+VALUES (10, 1480);
+
+
+INSERT INTO UserScores (user_id, score_value)
+VALUES (13, 460);
+
+
